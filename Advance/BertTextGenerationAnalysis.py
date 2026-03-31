@@ -4,6 +4,7 @@ from transformers import BertTokenizer, BertForMaskedLM, pipeline
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import tensorflow as tf
 
 # Load the BERT tokenizer and model
 tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
