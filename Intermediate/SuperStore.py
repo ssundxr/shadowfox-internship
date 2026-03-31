@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import opencv as oc
+import opencv as o
 # Load the dataset with specified encoding
 data = pd.read_csv(
     '/Users/dineshd/Documents/Internships/Shoadowfox internship/2.Intermediate/SampleSuperstore.csv',
